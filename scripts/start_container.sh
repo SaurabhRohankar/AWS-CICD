@@ -5,4 +5,4 @@ set -e
 docker pull saurabh19/sample-flask-app
 
 #running container
-docker run -d --name myapp saurabh19/sample-flask-app
+docker run -d -p 80:5000 --name myapp saurabh19/sample-flask-app
