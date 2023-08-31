@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 #pull the docker image
 docker pull saurabh19/sample-flask-app
