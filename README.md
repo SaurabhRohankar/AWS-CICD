@@ -4,6 +4,9 @@
 
 This project showcases an end-to-end Continuous Integration/Continuous Deployment (CI/CD) pipeline on Amazon Web Services (AWS) for a Python Flask application. The pipeline automatically builds and deploys the application to a Docker container, pushing it to Docker Hub and then deploying it using AWS CodeDeploy. 
 
+## Architecture Diagram
+![Architecture Diagram](architecture.png)
+
 ## Project Components
 
 - **Code Repository**: The project code is hosted on GitHub, and the pipeline is triggered whenever changes are pushed to the `master` branch.
